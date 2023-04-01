@@ -1,4 +1,4 @@
-package com.solace.integration.jcsmp;
+package com.solace.integration.jcsmp.pubsub;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;

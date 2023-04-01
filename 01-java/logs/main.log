@@ -1933,3 +1933,1257 @@
 2023-04-01 13:13:09,361 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 55882   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
 2023-04-01 13:13:09,362 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
 2023-04-01 13:13:09,362 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 22:54:37,333 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 22:54:37,333 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 22:54:37,339 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: PubFlowManager created 
+2023-04-01 22:54:37,339 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: PubFlowManager created 
+2023-04-01 22:54:37,371 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/40090/000e0001/mQDdP3ltfi
+2023-04-01 22:54:37,371 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/40090/000e0001/mQDdP3ltfi
+2023-04-01 22:54:37,391 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 22:54:37,391 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 22:54:37,392 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 22:54:37,392 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 22:54:37,394 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 22:54:37,394 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 22:54:37,395 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 22:54:37,395 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 22:54:37,396 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 22:54:37,396 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 22:54:37,406 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 22:54:37,406 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 22:54:37,407 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40090/000e0001/mQDdP3ltfi]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 22:54:37,407 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40090/000e0001/mQDdP3ltfi]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 22:54:37,408 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 22:54:37,408 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 22:54:37,408 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 22:54:37,408 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 22:54:37,408 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 22:54:37,408 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 22:54:37,409 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40090/000e0001/mQDdP3ltfi/_]
+2023-04-01 22:54:37,409 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40090/000e0001/mQDdP3ltfi/_]
+2023-04-01 22:54:37,409 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 22:54:37,409 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 22:54:37,409 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40090/000e0001/mQDdP3ltfi/>]
+2023-04-01 22:54:37,409 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40090/000e0001/mQDdP3ltfi/>]
+2023-04-01 22:54:37,410 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 22:54:37,410 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 22:54:37,411 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 22:54:37,411 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 22:54:37,411 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 22:54:37,411 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 22:54:37,425 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Created XMLMessageProducer for session [Client-1]
+2023-04-01 22:54:37,425 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Created XMLMessageProducer for session [Client-1]
+2023-04-01 22:54:37,425 +0530 [main] DEBUG (LogWrapper.java:55) - PUBADMGR_ReInit
+2023-04-01 22:54:37,425 +0530 [main] DEBUG (LogWrapper.java:55) - PUBADMGR_ReInit
+2023-04-01 22:54:37,425 +0530 [main] DEBUG (PubRetransmitTimedTask.java:20) - Creating PubADManager.
+2023-04-01 22:54:37,425 +0530 [main] DEBUG (PubRetransmitTimedTask.java:20) - Creating PubADManager.
+2023-04-01 22:54:37,426 +0530 [main] DEBUG (LogWrapper.java:55) - State Change: Unbound->Sending with input: FlowOpened
+2023-04-01 22:54:37,426 +0530 [main] DEBUG (LogWrapper.java:55) - State Change: Unbound->Sending with input: FlowOpened
+2023-04-01 22:54:37,426 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Created ADCTRL Handshake/OpenFlow Request [TxSessionId=-1, flow_name=null, lastSent=0  lastAck=0  winSz=1]
+2023-04-01 22:54:37,426 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Created ADCTRL Handshake/OpenFlow Request [TxSessionId=-1, flow_name=null, lastSent=0  lastAck=0  winSz=1]
+2023-04-01 22:54:37,427 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=1 
+
+2023-04-01 22:54:37,427 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=1 
+
+2023-04-01 22:54:37,427 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (ADCTRL-ProducerOpenFlow) (10000 ms)
+2023-04-01 22:54:37,427 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (ADCTRL-ProducerOpenFlow) (10000 ms)
+2023-04-01 22:54:37,428 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (ADCTRL-ProducerOpenFlow)
+2023-04-01 22:54:37,428 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (ADCTRL-ProducerOpenFlow)
+2023-04-01 22:54:37,428 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: lastMsgIdReceived not present in OpenFlow Response
+2023-04-01 22:54:37,428 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: lastMsgIdReceived not present in OpenFlow Response
+2023-04-01 22:54:37,429 +0530 [main] DEBUG (LogWrapper.java:55) - Init message queue: size=1
+2023-04-01 22:54:37,429 +0530 [main] DEBUG (LogWrapper.java:55) - Init message queue: size=1
+2023-04-01 22:54:37,429 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Got ADCTRL Response [TxSessionId=-1, flowName=eeb7c82ba12243d3be4f99637d3cecca, flowId=12, lastAck=0 lastRcv=0 winSz=1]
+2023-04-01 22:54:37,429 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Got ADCTRL Response [TxSessionId=-1, flowName=eeb7c82ba12243d3be4f99637d3cecca, flowId=12, lastAck=0 lastRcv=0 winSz=1]
+2023-04-01 22:54:37,429 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Client AD state is now: lastAcked=0 lastSent=0 winSz=1, flowId=12
+2023-04-01 22:54:37,429 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Client AD state is now: lastAcked=0 lastSent=0 winSz=1, flowId=12
+2023-04-01 22:54:37,430 +0530 [main] DEBUG (LogWrapper.java:55) - set flowId:12
+2023-04-01 22:54:37,430 +0530 [main] DEBUG (LogWrapper.java:55) - set flowId:12
+2023-04-01 22:54:37,430 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Suspending producer
+2023-04-01 22:54:37,430 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Suspending producer
+2023-04-01 22:54:37,430 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:555) - Suspend message queue
+2023-04-01 22:54:37,430 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:555) - Suspend message queue
+2023-04-01 22:54:37,430 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: AD pub flow message renumbering: flowId=12; respLastIdAcked=0
+2023-04-01 22:54:37,430 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: AD pub flow message renumbering: flowId=12; respLastIdAcked=0
+2023-04-01 22:54:37,430 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Resuming producer
+2023-04-01 22:54:37,430 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Resuming producer
+2023-04-01 22:54:37,430 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 22:54:37,430 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 22:54:37,436 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: About to send message
+2023-04-01 22:54:37,436 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: About to send message
+2023-04-01 22:54:37,436 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 22:54:37,436 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 22:54:37,436 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 22:54:37,436 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 22:54:37,436 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 22:54:37,436 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 22:54:37,437 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 1
+2023-04-01 22:54:37,437 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 1
+2023-04-01 22:54:37,437 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:54:37,437 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:54:37,437 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: About to send message
+2023-04-01 22:54:37,437 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: About to send message
+2023-04-01 22:54:37,437 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 22:54:37,437 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 22:54:37,438 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 22:54:37,438 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 22:54:37,441 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-12: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,441 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-12: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,443 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Got response for AD msg=1, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:54:37,443 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Got response for AD msg=1, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:54:37,443 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Clear AD timer
+2023-04-01 22:54:37,443 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Clear AD timer
+2023-04-01 22:54:37,443 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed error ackid=1, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,443 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed error ackid=1, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,443 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed ack ackid=0, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,443 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed ack ackid=0, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,443 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed ack for: msg=0
+2023-04-01 22:54:37,443 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed ack for: msg=0
+2023-04-01 22:54:37,444 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerNotificationDispatcher.java:98) - Producer dispatcher thread starts
+2023-04-01 22:54:37,444 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerNotificationDispatcher.java:98) - Producer dispatcher thread starts
+2023-04-01 22:54:37,445 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed error for: msg=1
+2023-04-01 22:54:37,445 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed error for: msg=1
+2023-04-01 22:54:37,445 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 1: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,445 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 1: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,445 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=2,ackMessageId=0,prevId=1,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 22:54:37,445 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=2,ackMessageId=0,prevId=1,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 22:54:37,445 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=2,ackMessageId=0,prevId=1,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 22:54:37,445 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=2,ackMessageId=0,prevId=1,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 22:54:37,446 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 2
+2023-04-01 22:54:37,446 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 2
+2023-04-01 22:54:37,446 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:54:37,446 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:54:37,446 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: About to send message
+2023-04-01 22:54:37,446 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: About to send message
+2023-04-01 22:54:37,446 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 22:54:37,446 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 22:54:37,446 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 22:54:37,446 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 22:54:37,449 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-12: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,449 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-12: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,449 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Got response for AD msg=2, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:54:37,449 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Got response for AD msg=2, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:54:37,449 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Clear AD timer
+2023-04-01 22:54:37,449 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Clear AD timer
+2023-04-01 22:54:37,449 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed error ackid=2, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,449 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed error ackid=2, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,449 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed ack ackid=1, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,449 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed ack ackid=1, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,450 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed ack for: msg=1
+2023-04-01 22:54:37,450 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed ack for: msg=1
+2023-04-01 22:54:37,450 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed error for: msg=2
+2023-04-01 22:54:37,450 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed error for: msg=2
+2023-04-01 22:54:37,450 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 2: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,450 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 2: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,450 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=3,ackMessageId=0,prevId=2,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 22:54:37,450 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=3,ackMessageId=0,prevId=2,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 22:54:37,450 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=3,ackMessageId=0,prevId=2,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 22:54:37,450 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=3,ackMessageId=0,prevId=2,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 22:54:37,450 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 3
+2023-04-01 22:54:37,450 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 3
+2023-04-01 22:54:37,451 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:54:37,451 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:54:37,451 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: About to send message
+2023-04-01 22:54:37,451 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: About to send message
+2023-04-01 22:54:37,451 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 22:54:37,451 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 22:54:37,451 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 22:54:37,451 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 22:54:37,453 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-12: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,453 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-12: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,454 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Got response for AD msg=3, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:54:37,454 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Got response for AD msg=3, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:54:37,454 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Clear AD timer
+2023-04-01 22:54:37,454 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Clear AD timer
+2023-04-01 22:54:37,454 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed error ackid=3, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,454 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed error ackid=3, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,454 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed ack ackid=2, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,454 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed ack ackid=2, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,454 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed ack for: msg=2
+2023-04-01 22:54:37,454 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed ack for: msg=2
+2023-04-01 22:54:37,454 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed error for: msg=3
+2023-04-01 22:54:37,454 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed error for: msg=3
+2023-04-01 22:54:37,455 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 3: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,455 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 3: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,455 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=3,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 22:54:37,455 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=3,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 22:54:37,455 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=3,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 22:54:37,455 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=3,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 22:54:37,455 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 4
+2023-04-01 22:54:37,455 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 4
+2023-04-01 22:54:37,455 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:54:37,455 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:54:37,456 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: About to send message
+2023-04-01 22:54:37,456 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: About to send message
+2023-04-01 22:54:37,456 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 22:54:37,456 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 22:54:37,456 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 22:54:37,456 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 22:54:37,458 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-12: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,458 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-12: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,458 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Got response for AD msg=4, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:54:37,458 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Got response for AD msg=4, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:54:37,458 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Clear AD timer
+2023-04-01 22:54:37,458 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Clear AD timer
+2023-04-01 22:54:37,458 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed error ackid=4, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,458 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed error ackid=4, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,459 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed ack ackid=3, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,459 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed ack ackid=3, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,459 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed ack for: msg=3
+2023-04-01 22:54:37,459 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed ack for: msg=3
+2023-04-01 22:54:37,459 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed error for: msg=4
+2023-04-01 22:54:37,459 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed error for: msg=4
+2023-04-01 22:54:37,459 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 4: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,459 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 4: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,459 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=5,ackMessageId=0,prevId=4,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 22:54:37,459 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=5,ackMessageId=0,prevId=4,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 22:54:37,459 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=5,ackMessageId=0,prevId=4,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 22:54:37,459 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=5,ackMessageId=0,prevId=4,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 22:54:37,460 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 5
+2023-04-01 22:54:37,460 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 5
+2023-04-01 22:54:37,460 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:54:37,460 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:54:37,463 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-12: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,463 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-12: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,463 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Got response for AD msg=5, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:54:37,463 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Got response for AD msg=5, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:54:37,463 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Clear AD timer
+2023-04-01 22:54:37,463 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Clear AD timer
+2023-04-01 22:54:37,463 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed error ackid=5, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,463 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed error ackid=5, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,463 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed ack ackid=4, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,463 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Processing windowed ack ackid=4, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:54:37,463 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed ack for: msg=4
+2023-04-01 22:54:37,463 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed ack for: msg=4
+2023-04-01 22:54:37,464 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed error for: msg=5
+2023-04-01 22:54:37,464 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Windowed error for: msg=5
+2023-04-01 22:54:37,464 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 5: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,464 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 5: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:54:37,465 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Client closes producer
+2023-04-01 22:54:37,465 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Client closes producer
+2023-04-01 22:54:37,465 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: State Change: Sending->Closed with null
+2023-04-01 22:54:37,465 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: State Change: Sending->Closed with null
+2023-04-01 22:54:37,466 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Clear AD timer
+2023-04-01 22:54:37,466 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Clear AD timer
+2023-04-01 22:54:37,466 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Return 0 non-AD messages to pool
+2023-04-01 22:54:37,466 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Return 0 non-AD messages to pool
+2023-04-01 22:54:37,466 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Return 0 AD messages to pool
+2023-04-01 22:54:37,466 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Return 0 AD messages to pool
+2023-04-01 22:54:37,467 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Resuming producer
+2023-04-01 22:54:37,467 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Resuming producer
+2023-04-01 22:54:37,467 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 22:54:37,467 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 22:54:37,467 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Closed XMLMessageProducer for session [Client-1].
+2023-04-01 22:54:37,467 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-12: Closed XMLMessageProducer for session [Client-1].
+2023-04-01 22:54:37,467 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 22:54:37,467 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 22:54:37,467 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 22:54:37,467 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 22:54:37,467 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 22:54:37,467 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 22:54:37,468 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 22:54:37,468 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 22:54:37,468 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 35672   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 22:54:37,468 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 35672   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 22:54:37,468 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 22:54:37,468 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 22:58:26,628 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 22:58:26,628 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 22:58:26,634 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: PubFlowManager created 
+2023-04-01 22:58:26,634 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: PubFlowManager created 
+2023-04-01 22:58:26,666 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/40220/000e0001/l172lU0jwZ
+2023-04-01 22:58:26,666 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/40220/000e0001/l172lU0jwZ
+2023-04-01 22:58:26,686 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 22:58:26,686 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 22:58:26,687 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 22:58:26,687 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 22:58:26,689 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 22:58:26,689 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 22:58:26,691 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 22:58:26,691 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 22:58:26,691 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 22:58:26,691 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 22:58:26,701 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 22:58:26,701 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 22:58:26,702 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40220/000e0001/l172lU0jwZ]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 22:58:26,702 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40220/000e0001/l172lU0jwZ]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 22:58:26,703 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 22:58:26,703 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 22:58:26,703 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 22:58:26,703 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 22:58:26,703 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 22:58:26,703 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 22:58:26,703 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40220/000e0001/l172lU0jwZ/_]
+2023-04-01 22:58:26,703 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40220/000e0001/l172lU0jwZ/_]
+2023-04-01 22:58:26,704 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 22:58:26,704 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 22:58:26,704 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40220/000e0001/l172lU0jwZ/>]
+2023-04-01 22:58:26,704 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40220/000e0001/l172lU0jwZ/>]
+2023-04-01 22:58:26,705 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 22:58:26,705 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 22:58:26,706 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 22:58:26,706 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 22:58:26,706 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 22:58:26,706 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 22:58:26,721 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Created XMLMessageProducer for session [Client-1]
+2023-04-01 22:58:26,721 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Created XMLMessageProducer for session [Client-1]
+2023-04-01 22:58:26,721 +0530 [main] DEBUG (LogWrapper.java:55) - PUBADMGR_ReInit
+2023-04-01 22:58:26,721 +0530 [main] DEBUG (LogWrapper.java:55) - PUBADMGR_ReInit
+2023-04-01 22:58:26,721 +0530 [main] DEBUG (PubRetransmitTimedTask.java:20) - Creating PubADManager.
+2023-04-01 22:58:26,721 +0530 [main] DEBUG (PubRetransmitTimedTask.java:20) - Creating PubADManager.
+2023-04-01 22:58:26,722 +0530 [main] DEBUG (LogWrapper.java:55) - State Change: Unbound->Sending with input: FlowOpened
+2023-04-01 22:58:26,722 +0530 [main] DEBUG (LogWrapper.java:55) - State Change: Unbound->Sending with input: FlowOpened
+2023-04-01 22:58:26,723 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Created ADCTRL Handshake/OpenFlow Request [TxSessionId=-1, flow_name=null, lastSent=0  lastAck=0  winSz=1]
+2023-04-01 22:58:26,723 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Created ADCTRL Handshake/OpenFlow Request [TxSessionId=-1, flow_name=null, lastSent=0  lastAck=0  winSz=1]
+2023-04-01 22:58:26,723 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=1 
+
+2023-04-01 22:58:26,723 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=1 
+
+2023-04-01 22:58:26,723 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (ADCTRL-ProducerOpenFlow) (10000 ms)
+2023-04-01 22:58:26,723 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (ADCTRL-ProducerOpenFlow) (10000 ms)
+2023-04-01 22:58:26,724 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (ADCTRL-ProducerOpenFlow)
+2023-04-01 22:58:26,724 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (ADCTRL-ProducerOpenFlow)
+2023-04-01 22:58:26,724 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: lastMsgIdReceived not present in OpenFlow Response
+2023-04-01 22:58:26,724 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: lastMsgIdReceived not present in OpenFlow Response
+2023-04-01 22:58:26,725 +0530 [main] DEBUG (LogWrapper.java:55) - Init message queue: size=1
+2023-04-01 22:58:26,725 +0530 [main] DEBUG (LogWrapper.java:55) - Init message queue: size=1
+2023-04-01 22:58:26,725 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Got ADCTRL Response [TxSessionId=-1, flowName=aad8fd3f82b5476a8f28742bc8cec8b6, flowId=13, lastAck=0 lastRcv=0 winSz=1]
+2023-04-01 22:58:26,725 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Got ADCTRL Response [TxSessionId=-1, flowName=aad8fd3f82b5476a8f28742bc8cec8b6, flowId=13, lastAck=0 lastRcv=0 winSz=1]
+2023-04-01 22:58:26,726 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Client AD state is now: lastAcked=0 lastSent=0 winSz=1, flowId=13
+2023-04-01 22:58:26,726 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Client AD state is now: lastAcked=0 lastSent=0 winSz=1, flowId=13
+2023-04-01 22:58:26,726 +0530 [main] DEBUG (LogWrapper.java:55) - set flowId:13
+2023-04-01 22:58:26,726 +0530 [main] DEBUG (LogWrapper.java:55) - set flowId:13
+2023-04-01 22:58:26,726 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Suspending producer
+2023-04-01 22:58:26,726 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Suspending producer
+2023-04-01 22:58:26,726 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:555) - Suspend message queue
+2023-04-01 22:58:26,726 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:555) - Suspend message queue
+2023-04-01 22:58:26,726 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: AD pub flow message renumbering: flowId=13; respLastIdAcked=0
+2023-04-01 22:58:26,726 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: AD pub flow message renumbering: flowId=13; respLastIdAcked=0
+2023-04-01 22:58:26,726 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Resuming producer
+2023-04-01 22:58:26,726 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Resuming producer
+2023-04-01 22:58:26,726 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 22:58:26,726 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 22:58:26,732 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: About to send message
+2023-04-01 22:58:26,732 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: About to send message
+2023-04-01 22:58:26,732 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 22:58:26,732 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 22:58:26,732 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 22:58:26,732 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 22:58:26,732 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 22:58:26,732 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 22:58:26,733 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 1
+2023-04-01 22:58:26,733 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 1
+2023-04-01 22:58:26,733 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:58:26,733 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:58:26,733 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: About to send message
+2023-04-01 22:58:26,733 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: About to send message
+2023-04-01 22:58:26,733 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 22:58:26,733 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 22:58:26,733 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 22:58:26,733 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 22:58:26,740 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-13: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,740 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-13: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,742 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Got response for AD msg=1, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:58:26,742 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Got response for AD msg=1, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:58:26,742 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Clear AD timer
+2023-04-01 22:58:26,742 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Clear AD timer
+2023-04-01 22:58:26,742 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed error ackid=1, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,742 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed error ackid=1, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,742 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed ack ackid=0, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,742 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed ack ackid=0, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,743 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed ack for: msg=0
+2023-04-01 22:58:26,743 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed ack for: msg=0
+2023-04-01 22:58:26,744 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerNotificationDispatcher.java:98) - Producer dispatcher thread starts
+2023-04-01 22:58:26,744 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerNotificationDispatcher.java:98) - Producer dispatcher thread starts
+2023-04-01 22:58:26,744 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed error for: msg=1
+2023-04-01 22:58:26,744 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed error for: msg=1
+2023-04-01 22:58:26,745 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 1: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,745 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 1: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,745 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=2,ackMessageId=0,prevId=1,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 22:58:26,745 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=2,ackMessageId=0,prevId=1,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 22:58:26,745 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=2,ackMessageId=0,prevId=1,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 22:58:26,745 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=2,ackMessageId=0,prevId=1,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 22:58:26,745 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 2
+2023-04-01 22:58:26,745 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 2
+2023-04-01 22:58:26,745 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:58:26,745 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:58:26,746 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: About to send message
+2023-04-01 22:58:26,746 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: About to send message
+2023-04-01 22:58:26,746 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 22:58:26,746 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 22:58:26,746 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 22:58:26,746 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 22:58:26,751 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-13: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,751 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-13: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,752 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Got response for AD msg=2, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:58:26,752 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Got response for AD msg=2, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:58:26,752 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Clear AD timer
+2023-04-01 22:58:26,752 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Clear AD timer
+2023-04-01 22:58:26,752 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed error ackid=2, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,752 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed error ackid=2, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,752 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed ack ackid=1, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,752 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed ack ackid=1, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,752 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed ack for: msg=1
+2023-04-01 22:58:26,752 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed ack for: msg=1
+2023-04-01 22:58:26,752 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed error for: msg=2
+2023-04-01 22:58:26,752 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed error for: msg=2
+2023-04-01 22:58:26,752 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 2: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,752 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 2: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,752 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=3,ackMessageId=0,prevId=2,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 22:58:26,752 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=3,ackMessageId=0,prevId=2,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 22:58:26,753 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=3,ackMessageId=0,prevId=2,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 22:58:26,753 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=3,ackMessageId=0,prevId=2,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 22:58:26,753 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 3
+2023-04-01 22:58:26,753 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 3
+2023-04-01 22:58:26,753 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:58:26,753 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:58:26,753 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: About to send message
+2023-04-01 22:58:26,753 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: About to send message
+2023-04-01 22:58:26,754 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 22:58:26,754 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 22:58:26,754 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 22:58:26,754 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 22:58:26,759 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-13: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,759 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-13: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,759 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Got response for AD msg=3, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:58:26,759 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Got response for AD msg=3, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:58:26,760 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Clear AD timer
+2023-04-01 22:58:26,760 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Clear AD timer
+2023-04-01 22:58:26,760 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed error ackid=3, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,760 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed error ackid=3, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,760 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed ack ackid=2, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,760 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed ack ackid=2, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,760 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed ack for: msg=2
+2023-04-01 22:58:26,760 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed ack for: msg=2
+2023-04-01 22:58:26,760 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed error for: msg=3
+2023-04-01 22:58:26,760 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed error for: msg=3
+2023-04-01 22:58:26,760 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 3: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,760 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 3: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,760 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=3,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 22:58:26,760 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=3,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 22:58:26,761 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=3,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 22:58:26,761 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=3,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 22:58:26,761 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 4
+2023-04-01 22:58:26,761 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 4
+2023-04-01 22:58:26,761 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:58:26,761 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:58:26,762 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: About to send message
+2023-04-01 22:58:26,762 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: About to send message
+2023-04-01 22:58:26,762 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 22:58:26,762 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 22:58:26,762 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 22:58:26,762 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 22:58:26,767 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-13: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,767 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-13: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,767 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Got response for AD msg=4, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:58:26,767 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Got response for AD msg=4, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:58:26,767 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Clear AD timer
+2023-04-01 22:58:26,767 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Clear AD timer
+2023-04-01 22:58:26,768 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed error ackid=4, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,768 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed error ackid=4, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,768 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed ack ackid=3, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,768 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed ack ackid=3, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,768 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed ack for: msg=3
+2023-04-01 22:58:26,768 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed ack for: msg=3
+2023-04-01 22:58:26,768 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed error for: msg=4
+2023-04-01 22:58:26,768 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed error for: msg=4
+2023-04-01 22:58:26,768 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 4: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,768 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 4: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,768 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=5,ackMessageId=0,prevId=4,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 22:58:26,768 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=5,ackMessageId=0,prevId=4,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 22:58:26,768 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=5,ackMessageId=0,prevId=4,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 22:58:26,768 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=5,ackMessageId=0,prevId=4,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 22:58:26,769 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 5
+2023-04-01 22:58:26,769 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 5
+2023-04-01 22:58:26,769 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:58:26,769 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 22:58:26,774 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-13: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,774 +0530 [Context_1_ReactorThread] INFO  (LogWrapper.java:63) - Client-1:Flow-13: Error Response (400) - Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,774 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Got response for AD msg=5, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:58:26,774 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Got response for AD msg=5, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 22:58:26,774 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Clear AD timer
+2023-04-01 22:58:26,774 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Clear AD timer
+2023-04-01 22:58:26,774 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed error ackid=5, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,774 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed error ackid=5, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,774 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed ack ackid=4, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,774 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Processing windowed ack ackid=4, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 22:58:26,774 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed ack for: msg=4
+2023-04-01 22:58:26,774 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed ack for: msg=4
+2023-04-01 22:58:26,774 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed error for: msg=5
+2023-04-01 22:58:26,774 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Windowed error for: msg=5
+2023-04-01 22:58:26,775 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 5: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,775 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerErrorNotification.java:49) - Notify exception during publishing 5: 400: Queue Not Found - Topic '#P2P/QUE/Q/tutorial'
+2023-04-01 22:58:26,775 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Client closes producer
+2023-04-01 22:58:26,775 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Client closes producer
+2023-04-01 22:58:26,776 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: State Change: Sending->Closed with null
+2023-04-01 22:58:26,776 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: State Change: Sending->Closed with null
+2023-04-01 22:58:26,776 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Clear AD timer
+2023-04-01 22:58:26,776 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Clear AD timer
+2023-04-01 22:58:26,776 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Return 0 non-AD messages to pool
+2023-04-01 22:58:26,776 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Return 0 non-AD messages to pool
+2023-04-01 22:58:26,777 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Return 0 AD messages to pool
+2023-04-01 22:58:26,777 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Return 0 AD messages to pool
+2023-04-01 22:58:26,777 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Resuming producer
+2023-04-01 22:58:26,777 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Resuming producer
+2023-04-01 22:58:26,777 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 22:58:26,777 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 22:58:26,777 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Closed XMLMessageProducer for session [Client-1].
+2023-04-01 22:58:26,777 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-13: Closed XMLMessageProducer for session [Client-1].
+2023-04-01 22:58:26,777 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 22:58:26,777 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 22:58:26,777 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 22:58:26,777 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 22:58:26,777 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 22:58:26,777 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 22:58:26,777 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 22:58:26,777 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 22:58:26,777 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 44658   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 22:58:26,777 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 44658   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 22:58:26,778 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 22:58:26,778 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 23:00:12,411 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 23:00:12,411 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 23:00:12,417 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: PubFlowManager created 
+2023-04-01 23:00:12,417 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: PubFlowManager created 
+2023-04-01 23:00:12,449 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/40336/000e0001/L2tb--GCac
+2023-04-01 23:00:12,449 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/40336/000e0001/L2tb--GCac
+2023-04-01 23:00:12,469 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 23:00:12,469 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 23:00:12,470 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 23:00:12,470 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 23:00:12,472 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 23:00:12,472 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 23:00:12,473 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 23:00:12,473 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 23:00:12,474 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 23:00:12,474 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 23:00:12,483 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 23:00:12,483 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 23:00:12,485 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40336/000e0001/L2tb--GCac]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 23:00:12,485 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40336/000e0001/L2tb--GCac]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 23:00:12,485 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 23:00:12,485 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 23:00:12,485 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 23:00:12,485 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 23:00:12,486 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 23:00:12,486 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 23:00:12,486 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40336/000e0001/L2tb--GCac/_]
+2023-04-01 23:00:12,486 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40336/000e0001/L2tb--GCac/_]
+2023-04-01 23:00:12,486 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 23:00:12,486 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 23:00:12,486 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40336/000e0001/L2tb--GCac/>]
+2023-04-01 23:00:12,486 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/40336/000e0001/L2tb--GCac/>]
+2023-04-01 23:00:12,487 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 23:00:12,487 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 23:00:12,488 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 23:00:12,488 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 23:00:12,489 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 23:00:12,489 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 23:00:12,503 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Created XMLMessageProducer for session [Client-1]
+2023-04-01 23:00:12,503 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Created XMLMessageProducer for session [Client-1]
+2023-04-01 23:00:12,503 +0530 [main] DEBUG (LogWrapper.java:55) - PUBADMGR_ReInit
+2023-04-01 23:00:12,503 +0530 [main] DEBUG (LogWrapper.java:55) - PUBADMGR_ReInit
+2023-04-01 23:00:12,503 +0530 [main] DEBUG (PubRetransmitTimedTask.java:20) - Creating PubADManager.
+2023-04-01 23:00:12,503 +0530 [main] DEBUG (PubRetransmitTimedTask.java:20) - Creating PubADManager.
+2023-04-01 23:00:12,503 +0530 [main] DEBUG (LogWrapper.java:55) - State Change: Unbound->Sending with input: FlowOpened
+2023-04-01 23:00:12,503 +0530 [main] DEBUG (LogWrapper.java:55) - State Change: Unbound->Sending with input: FlowOpened
+2023-04-01 23:00:12,504 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Created ADCTRL Handshake/OpenFlow Request [TxSessionId=-1, flow_name=null, lastSent=0  lastAck=0  winSz=1]
+2023-04-01 23:00:12,504 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Created ADCTRL Handshake/OpenFlow Request [TxSessionId=-1, flow_name=null, lastSent=0  lastAck=0  winSz=1]
+2023-04-01 23:00:12,504 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=1 
+
+2023-04-01 23:00:12,504 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=1 
+
+2023-04-01 23:00:12,505 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (ADCTRL-ProducerOpenFlow) (10000 ms)
+2023-04-01 23:00:12,505 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (ADCTRL-ProducerOpenFlow) (10000 ms)
+2023-04-01 23:00:12,506 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (ADCTRL-ProducerOpenFlow)
+2023-04-01 23:00:12,506 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (ADCTRL-ProducerOpenFlow)
+2023-04-01 23:00:12,506 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: lastMsgIdReceived not present in OpenFlow Response
+2023-04-01 23:00:12,506 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: lastMsgIdReceived not present in OpenFlow Response
+2023-04-01 23:00:12,506 +0530 [main] DEBUG (LogWrapper.java:55) - Init message queue: size=1
+2023-04-01 23:00:12,506 +0530 [main] DEBUG (LogWrapper.java:55) - Init message queue: size=1
+2023-04-01 23:00:12,507 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Got ADCTRL Response [TxSessionId=-1, flowName=c85515d9b28e4d1dae375272455067d4, flowId=14, lastAck=0 lastRcv=0 winSz=1]
+2023-04-01 23:00:12,507 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Got ADCTRL Response [TxSessionId=-1, flowName=c85515d9b28e4d1dae375272455067d4, flowId=14, lastAck=0 lastRcv=0 winSz=1]
+2023-04-01 23:00:12,507 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Client AD state is now: lastAcked=0 lastSent=0 winSz=1, flowId=14
+2023-04-01 23:00:12,507 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Client AD state is now: lastAcked=0 lastSent=0 winSz=1, flowId=14
+2023-04-01 23:00:12,507 +0530 [main] DEBUG (LogWrapper.java:55) - set flowId:14
+2023-04-01 23:00:12,507 +0530 [main] DEBUG (LogWrapper.java:55) - set flowId:14
+2023-04-01 23:00:12,507 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Suspending producer
+2023-04-01 23:00:12,507 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Suspending producer
+2023-04-01 23:00:12,507 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:555) - Suspend message queue
+2023-04-01 23:00:12,507 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:555) - Suspend message queue
+2023-04-01 23:00:12,507 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: AD pub flow message renumbering: flowId=14; respLastIdAcked=0
+2023-04-01 23:00:12,507 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: AD pub flow message renumbering: flowId=14; respLastIdAcked=0
+2023-04-01 23:00:12,507 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Resuming producer
+2023-04-01 23:00:12,507 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Resuming producer
+2023-04-01 23:00:12,507 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 23:00:12,507 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 23:00:12,513 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: About to send message
+2023-04-01 23:00:12,513 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: About to send message
+2023-04-01 23:00:12,514 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 23:00:12,514 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 23:00:12,514 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 23:00:12,514 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 23:00:12,514 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 23:00:12,514 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@65f095f8]
+2023-04-01 23:00:12,514 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 1
+2023-04-01 23:00:12,514 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 1
+2023-04-01 23:00:12,515 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 23:00:12,515 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 23:00:12,515 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: About to send message
+2023-04-01 23:00:12,515 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: About to send message
+2023-04-01 23:00:12,515 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 23:00:12,515 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 23:00:12,515 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 23:00:12,515 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 23:00:12,517 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Got response for AD msg=1, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 23:00:12,517 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Got response for AD msg=1, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 23:00:12,518 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Clear AD timer
+2023-04-01 23:00:12,518 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Clear AD timer
+2023-04-01 23:00:12,518 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Processing windowed ack ackid=1, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 23:00:12,518 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Processing windowed ack ackid=1, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 23:00:12,518 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Windowed ack for: msg=1
+2023-04-01 23:00:12,518 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Windowed ack for: msg=1
+2023-04-01 23:00:12,519 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerNotificationDispatcher.java:98) - Producer dispatcher thread starts
+2023-04-01 23:00:12,519 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerNotificationDispatcher.java:98) - Producer dispatcher thread starts
+2023-04-01 23:00:12,520 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=2,ackMessageId=0,prevId=1,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 23:00:12,520 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=2,ackMessageId=0,prevId=1,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 23:00:12,520 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerResponseNotification.java:54) - Notify response received for message 1
+2023-04-01 23:00:12,520 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerResponseNotification.java:54) - Notify response received for message 1
+2023-04-01 23:00:12,520 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=2,ackMessageId=0,prevId=1,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 23:00:12,520 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=2,ackMessageId=0,prevId=1,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@55536d9e]
+2023-04-01 23:00:12,520 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 2
+2023-04-01 23:00:12,520 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 2
+2023-04-01 23:00:12,520 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 23:00:12,520 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 23:00:12,521 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: About to send message
+2023-04-01 23:00:12,521 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: About to send message
+2023-04-01 23:00:12,521 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 23:00:12,521 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 23:00:12,521 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 23:00:12,521 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 23:00:12,523 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Got response for AD msg=2, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 23:00:12,523 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Got response for AD msg=2, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 23:00:12,524 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Clear AD timer
+2023-04-01 23:00:12,524 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Clear AD timer
+2023-04-01 23:00:12,524 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Processing windowed ack ackid=2, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 23:00:12,524 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Processing windowed ack ackid=2, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 23:00:12,524 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Windowed ack for: msg=2
+2023-04-01 23:00:12,524 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Windowed ack for: msg=2
+2023-04-01 23:00:12,524 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerResponseNotification.java:54) - Notify response received for message 2
+2023-04-01 23:00:12,524 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerResponseNotification.java:54) - Notify response received for message 2
+2023-04-01 23:00:12,524 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=3,ackMessageId=0,prevId=2,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 23:00:12,524 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=3,ackMessageId=0,prevId=2,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 23:00:12,524 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=3,ackMessageId=0,prevId=2,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 23:00:12,524 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=3,ackMessageId=0,prevId=2,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@69e1dd28]
+2023-04-01 23:00:12,524 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 3
+2023-04-01 23:00:12,524 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 3
+2023-04-01 23:00:12,525 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 23:00:12,525 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 23:00:12,525 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: About to send message
+2023-04-01 23:00:12,525 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: About to send message
+2023-04-01 23:00:12,525 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 23:00:12,525 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 23:00:12,525 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 23:00:12,525 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 23:00:12,528 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Got response for AD msg=3, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 23:00:12,528 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Got response for AD msg=3, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 23:00:12,528 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Clear AD timer
+2023-04-01 23:00:12,528 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Clear AD timer
+2023-04-01 23:00:12,528 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Processing windowed ack ackid=3, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 23:00:12,528 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Processing windowed ack ackid=3, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 23:00:12,528 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Windowed ack for: msg=3
+2023-04-01 23:00:12,528 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Windowed ack for: msg=3
+2023-04-01 23:00:12,528 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerResponseNotification.java:54) - Notify response received for message 3
+2023-04-01 23:00:12,528 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerResponseNotification.java:54) - Notify response received for message 3
+2023-04-01 23:00:12,528 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=3,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 23:00:12,528 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=3,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 23:00:12,529 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=3,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 23:00:12,529 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=3,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@11bd0f3b]
+2023-04-01 23:00:12,529 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 4
+2023-04-01 23:00:12,529 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 4
+2023-04-01 23:00:12,529 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 23:00:12,529 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 23:00:12,529 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: About to send message
+2023-04-01 23:00:12,529 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: About to send message
+2023-04-01 23:00:12,529 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 23:00:12,529 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: adding AD message to the queue: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=-1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 23:00:12,529 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 23:00:12,529 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:266) - Queue is full, wait....
+2023-04-01 23:00:12,532 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Got response for AD msg=4, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 23:00:12,532 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Got response for AD msg=4, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 23:00:12,532 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Clear AD timer
+2023-04-01 23:00:12,532 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Clear AD timer
+2023-04-01 23:00:12,532 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Processing windowed ack ackid=4, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 23:00:12,532 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Processing windowed ack ackid=4, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 23:00:12,532 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Windowed ack for: msg=4
+2023-04-01 23:00:12,532 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Windowed ack for: msg=4
+2023-04-01 23:00:12,532 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerResponseNotification.java:54) - Notify response received for message 4
+2023-04-01 23:00:12,532 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerResponseNotification.java:54) - Notify response received for message 4
+2023-04-01 23:00:12,532 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=5,ackMessageId=0,prevId=4,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 23:00:12,532 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:298) - Update message ID before enqueue it: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=5,ackMessageId=0,prevId=4,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 23:00:12,533 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=5,ackMessageId=0,prevId=4,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 23:00:12,533 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=5,ackMessageId=0,prevId=4,CID_count=0,userData=,type=PERSISTENT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=44,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@c333c60]
+2023-04-01 23:00:12,533 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 5
+2023-04-01 23:00:12,533 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 5
+2023-04-01 23:00:12,533 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 23:00:12,533 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Starting pub ad timer: scheduled new timer in 2000
+2023-04-01 23:00:12,536 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Got response for AD msg=5, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 23:00:12,536 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Got response for AD msg=5, retransmitRequired=false, isRollbackOnly=false
+2023-04-01 23:00:12,536 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Clear AD timer
+2023-04-01 23:00:12,536 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Clear AD timer
+2023-04-01 23:00:12,536 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Processing windowed ack ackid=5, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 23:00:12,536 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Processing windowed ack ackid=5, ackEventCode=SUPPORTED_ACK_EVENT_MODE_PER_MSG
+2023-04-01 23:00:12,536 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Windowed ack for: msg=5
+2023-04-01 23:00:12,536 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Windowed ack for: msg=5
+2023-04-01 23:00:12,537 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerResponseNotification.java:54) - Notify response received for message 5
+2023-04-01 23:00:12,537 +0530 [Context_1_ProducerDispatcher] DEBUG (ProducerResponseNotification.java:54) - Notify response received for message 5
+2023-04-01 23:00:12,537 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Client closes producer
+2023-04-01 23:00:12,537 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Client closes producer
+2023-04-01 23:00:12,537 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: State Change: Sending->Closed with null
+2023-04-01 23:00:12,537 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: State Change: Sending->Closed with null
+2023-04-01 23:00:12,538 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Clear AD timer
+2023-04-01 23:00:12,538 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Clear AD timer
+2023-04-01 23:00:12,538 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Return 0 non-AD messages to pool
+2023-04-01 23:00:12,538 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Return 0 non-AD messages to pool
+2023-04-01 23:00:12,538 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Return 0 AD messages to pool
+2023-04-01 23:00:12,538 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Return 0 AD messages to pool
+2023-04-01 23:00:12,538 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Resuming producer
+2023-04-01 23:00:12,538 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Resuming producer
+2023-04-01 23:00:12,538 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 23:00:12,538 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 23:00:12,538 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Closed XMLMessageProducer for session [Client-1].
+2023-04-01 23:00:12,538 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-14: Closed XMLMessageProducer for session [Client-1].
+2023-04-01 23:00:12,539 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 23:00:12,539 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 23:00:12,539 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 23:00:12,539 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 23:00:12,539 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 23:00:12,539 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 23:00:12,539 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 23:00:12,539 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 23:00:12,539 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 57136   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 23:00:12,539 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 57136   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 23:00:12,540 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 23:00:12,540 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed

@@ -1,4 +1,4 @@
-package com.solace.integration.jcsmp;
+package com.solace.integration.jcsmp.pubsub;
 
 import java.util.concurrent.CountDownLatch;
 
