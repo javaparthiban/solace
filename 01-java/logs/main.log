@@ -1,0 +1,1935 @@
+2023-04-01 13:10:09,205 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 13:10:09,205 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 13:10:09,213 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:f0f2775: PubFlowManager created 
+2023-04-01 13:10:09,213 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:f0f2775: PubFlowManager created 
+2023-04-01 13:10:09,244 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/23902/000e0001/NIUIUav00A
+2023-04-01 13:10:09,244 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/23902/000e0001/NIUIUav00A
+2023-04-01 13:10:09,264 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 13:10:09,264 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 13:10:09,264 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 13:10:09,264 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 13:10:09,267 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 13:10:09,267 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 13:10:09,268 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 13:10:09,268 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 13:10:09,269 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 13:10:09,269 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 13:10:09,278 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 13:10:09,278 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 13:10:09,280 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23902/000e0001/NIUIUav00A]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 13:10:09,280 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23902/000e0001/NIUIUav00A]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 13:10:09,280 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 13:10:09,280 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 13:10:09,281 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 13:10:09,281 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 13:10:09,281 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:10:09,281 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:10:09,282 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23902/000e0001/NIUIUav00A/_]
+2023-04-01 13:10:09,282 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23902/000e0001/NIUIUav00A/_]
+2023-04-01 13:10:09,282 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 13:10:09,282 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 13:10:09,282 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23902/000e0001/NIUIUav00A/>]
+2023-04-01 13:10:09,282 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23902/000e0001/NIUIUav00A/>]
+2023-04-01 13:10:09,283 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 13:10:09,283 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 13:10:09,284 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 13:10:09,284 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 13:10:09,284 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 13:10:09,284 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 13:10:09,298 +0530 [Context_1_ConsumerDispatcher] DEBUG (ConsumerNotificationDispatcher.java:127) - Consumer dispatcher thread starts
+2023-04-01 13:10:09,298 +0530 [Context_1_ConsumerDispatcher] DEBUG (ConsumerNotificationDispatcher.java:127) - Consumer dispatcher thread starts
+2023-04-01 13:10:09,299 +0530 [main] DEBUG (SubAckTimedTask.java:17) - Creating SubAckTimedTask.
+2023-04-01 13:10:09,299 +0530 [main] DEBUG (SubAckTimedTask.java:17) - Creating SubAckTimedTask.
+2023-04-01 13:10:09,299 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: Clear AD timer
+2023-04-01 13:10:09,299 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: Clear AD timer
+2023-04-01 13:10:09,299 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:30) - Created XMLMessageConsumer
+2023-04-01 13:10:09,299 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:30) - Created XMLMessageConsumer
+2023-04-01 13:10:09,300 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=4 
+
+2023-04-01 13:10:09,300 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=4 
+
+2023-04-01 13:10:09,301 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (SMP-SmpRequest) (10000 ms)
+2023-04-01 13:10:09,301 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (SMP-SmpRequest) (10000 ms)
+2023-04-01 13:10:09,301 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (SMP-SmpRequest)
+2023-04-01 13:10:09,301 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (SMP-SmpRequest)
+2023-04-01 13:10:12,308 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:10:12,308 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:10:12,308 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:10:12,308 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:10:12,309 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:10:12,309 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:10:13,311 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Timer expiry: checking reconnect counter.
+2023-04-01 13:10:13,311 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Timer expiry: checking reconnect counter.
+2023-04-01 13:10:13,311 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Reconnect frequency OK: count=1
+2023-04-01 13:10:13,311 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Reconnect frequency OK: count=1
+2023-04-01 13:10:15,315 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:10:15,315 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:10:15,316 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:10:15,316 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:10:15,317 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:10:15,317 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:10:18,324 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:10:18,324 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:10:18,324 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:10:18,324 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:10:18,324 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:10:18,324 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:10:21,331 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:10:21,331 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:10:21,331 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:10:21,331 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:10:21,331 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:10:21,331 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:10:22,878 +0530 [main] INFO  (TopicPublisher.java:37) - TopicPublisher initializing...
+2023-04-01 13:10:22,913 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 13:10:22,913 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 13:10:22,919 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: PubFlowManager created 
+2023-04-01 13:10:22,919 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: PubFlowManager created 
+2023-04-01 13:10:22,952 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/23933/000e0001/dUrYc5rQTG
+2023-04-01 13:10:22,952 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/23933/000e0001/dUrYc5rQTG
+2023-04-01 13:10:22,972 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 13:10:22,972 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 13:10:22,973 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 13:10:22,973 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 13:10:22,975 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 13:10:22,975 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 13:10:22,977 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 13:10:22,977 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 13:10:22,977 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 13:10:22,977 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 13:10:22,986 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 13:10:22,986 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 13:10:22,988 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23933/000e0001/dUrYc5rQTG]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 13:10:22,988 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23933/000e0001/dUrYc5rQTG]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 13:10:22,988 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 13:10:22,988 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 13:10:22,989 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 13:10:22,989 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 13:10:22,989 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:10:22,989 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:10:22,990 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23933/000e0001/dUrYc5rQTG/_]
+2023-04-01 13:10:22,990 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23933/000e0001/dUrYc5rQTG/_]
+2023-04-01 13:10:22,990 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 13:10:22,990 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 13:10:22,991 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23933/000e0001/dUrYc5rQTG/>]
+2023-04-01 13:10:22,991 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23933/000e0001/dUrYc5rQTG/>]
+2023-04-01 13:10:22,991 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 13:10:22,991 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 13:10:22,992 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 13:10:22,992 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 13:10:22,992 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 13:10:22,992 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 13:10:23,001 +0530 [main] INFO  (TopicPublisher.java:50) - Created Topic Name: tutorial/topic
+2023-04-01 13:10:23,006 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Created XMLMessageProducer for session [Client-1]
+2023-04-01 13:10:23,006 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Created XMLMessageProducer for session [Client-1]
+2023-04-01 13:10:23,007 +0530 [main] DEBUG (LogWrapper.java:55) - PUBADMGR_ReInit
+2023-04-01 13:10:23,007 +0530 [main] DEBUG (LogWrapper.java:55) - PUBADMGR_ReInit
+2023-04-01 13:10:23,007 +0530 [main] DEBUG (PubRetransmitTimedTask.java:20) - Creating PubADManager.
+2023-04-01 13:10:23,007 +0530 [main] DEBUG (PubRetransmitTimedTask.java:20) - Creating PubADManager.
+2023-04-01 13:10:23,007 +0530 [main] DEBUG (LogWrapper.java:55) - State Change: Unbound->Sending with input: FlowOpened
+2023-04-01 13:10:23,007 +0530 [main] DEBUG (LogWrapper.java:55) - State Change: Unbound->Sending with input: FlowOpened
+2023-04-01 13:10:23,008 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Created ADCTRL Handshake/OpenFlow Request [TxSessionId=-1, flow_name=null, lastSent=0  lastAck=0  winSz=1]
+2023-04-01 13:10:23,008 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Created ADCTRL Handshake/OpenFlow Request [TxSessionId=-1, flow_name=null, lastSent=0  lastAck=0  winSz=1]
+2023-04-01 13:10:23,008 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=1 
+
+2023-04-01 13:10:23,008 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=1 
+
+2023-04-01 13:10:23,009 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (ADCTRL-ProducerOpenFlow) (10000 ms)
+2023-04-01 13:10:23,009 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (ADCTRL-ProducerOpenFlow) (10000 ms)
+2023-04-01 13:10:23,010 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (ADCTRL-ProducerOpenFlow)
+2023-04-01 13:10:23,010 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (ADCTRL-ProducerOpenFlow)
+2023-04-01 13:10:23,010 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: lastMsgIdReceived not present in OpenFlow Response
+2023-04-01 13:10:23,010 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: lastMsgIdReceived not present in OpenFlow Response
+2023-04-01 13:10:23,011 +0530 [main] DEBUG (LogWrapper.java:55) - Init message queue: size=1
+2023-04-01 13:10:23,011 +0530 [main] DEBUG (LogWrapper.java:55) - Init message queue: size=1
+2023-04-01 13:10:23,011 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Got ADCTRL Response [TxSessionId=-1, flowName=396ad8eb494046478eb135b3ef1acb30, flowId=9, lastAck=0 lastRcv=0 winSz=1]
+2023-04-01 13:10:23,011 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Got ADCTRL Response [TxSessionId=-1, flowName=396ad8eb494046478eb135b3ef1acb30, flowId=9, lastAck=0 lastRcv=0 winSz=1]
+2023-04-01 13:10:23,011 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Client AD state is now: lastAcked=0 lastSent=0 winSz=1, flowId=9
+2023-04-01 13:10:23,011 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:7364985f: Client AD state is now: lastAcked=0 lastSent=0 winSz=1, flowId=9
+2023-04-01 13:10:23,012 +0530 [main] DEBUG (LogWrapper.java:55) - set flowId:9
+2023-04-01 13:10:23,012 +0530 [main] DEBUG (LogWrapper.java:55) - set flowId:9
+2023-04-01 13:10:23,012 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Suspending producer
+2023-04-01 13:10:23,012 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Suspending producer
+2023-04-01 13:10:23,012 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:555) - Suspend message queue
+2023-04-01 13:10:23,012 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:555) - Suspend message queue
+2023-04-01 13:10:23,012 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: AD pub flow message renumbering: flowId=9; respLastIdAcked=0
+2023-04-01 13:10:23,012 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: AD pub flow message renumbering: flowId=9; respLastIdAcked=0
+2023-04-01 13:10:23,012 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Resuming producer
+2023-04-01 13:10:23,012 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Resuming producer
+2023-04-01 13:10:23,012 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 13:10:23,012 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 13:10:23,017 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: About to send message
+2023-04-01 13:10:23,017 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: About to send message
+2023-04-01 13:10:23,018 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Set message ID: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=15,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@73ee04c8]
+2023-04-01 13:10:23,018 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Set message ID: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=15,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@73ee04c8]
+2023-04-01 13:10:23,018 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=15,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@73ee04c8]
+2023-04-01 13:10:23,018 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=15,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@73ee04c8]
+2023-04-01 13:10:23,018 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 1
+2023-04-01 13:10:23,018 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 1
+2023-04-01 13:10:23,018 +0530 [main] INFO  (TopicPublisher.java:71) - Message sent. Exiting.
+2023-04-01 13:10:23,019 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Client closes producer
+2023-04-01 13:10:23,019 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Client closes producer
+2023-04-01 13:10:23,019 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: State Change: Sending->Closed with null
+2023-04-01 13:10:23,019 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: State Change: Sending->Closed with null
+2023-04-01 13:10:23,019 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Clear AD timer
+2023-04-01 13:10:23,019 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Clear AD timer
+2023-04-01 13:10:23,019 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Return 0 non-AD messages to pool
+2023-04-01 13:10:23,019 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Return 0 non-AD messages to pool
+2023-04-01 13:10:23,019 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Return 0 AD messages to pool
+2023-04-01 13:10:23,019 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Return 0 AD messages to pool
+2023-04-01 13:10:23,019 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Resuming producer
+2023-04-01 13:10:23,019 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Resuming producer
+2023-04-01 13:10:23,020 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 13:10:23,020 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 13:10:23,020 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Closed XMLMessageProducer for session [Client-1].
+2023-04-01 13:10:23,020 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-9: Closed XMLMessageProducer for session [Client-1].
+2023-04-01 13:10:23,020 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 13:10:23,020 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 13:10:23,020 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 13:10:23,020 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 13:10:23,020 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 13:10:23,020 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 13:10:23,020 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 13:10:23,020 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 13:10:23,020 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 55848   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 13:10:23,020 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 55848   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 13:10:23,021 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 13:10:23,021 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 13:10:23,027 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Demux pub msg:com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=15,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@2f921f3e]
+2023-04-01 13:10:23,027 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Demux pub msg:com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=15,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@2f921f3e]
+2023-04-01 13:10:23,027 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Flow 0: Enqueue to delivery: msg=4, dest=tutorial/topic
+2023-04-01 13:10:23,027 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Flow 0: Enqueue to delivery: msg=4, dest=tutorial/topic
+2023-04-01 13:10:23,033 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:69) - Consumer about to close
+2023-04-01 13:10:23,033 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:69) - Consumer about to close
+2023-04-01 13:10:23,033 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: pauseFlowInternally=false
+2023-04-01 13:10:23,033 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: pauseFlowInternally=false
+2023-04-01 13:10:23,033 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: _startState=STOPPED
+2023-04-01 13:10:23,033 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: _startState=STOPPED
+2023-04-01 13:10:23,033 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: Clear AD timer
+2023-04-01 13:10:23,033 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: Clear AD timer
+2023-04-01 13:10:23,033 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:75) - Closed XMLMessageConsumer
+2023-04-01 13:10:23,033 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:75) - Closed XMLMessageConsumer
+2023-04-01 13:10:23,033 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:69) - Consumer about to close
+2023-04-01 13:10:23,033 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:69) - Consumer about to close
+2023-04-01 13:10:23,033 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:75) - Closed XMLMessageConsumer
+2023-04-01 13:10:23,033 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:75) - Closed XMLMessageConsumer
+2023-04-01 13:10:23,034 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 13:10:23,034 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 13:10:23,034 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 13:10:23,034 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 13:10:23,034 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 13:10:23,034 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 13:10:23,034 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 13:10:23,034 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 13:10:23,034 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 42772   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 13:10:23,034 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 42772   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 13:10:23,035 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 13:10:23,035 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 13:12:09,956 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 13:12:09,956 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 13:12:09,963 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:61d47554: PubFlowManager created 
+2023-04-01 13:12:09,963 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:61d47554: PubFlowManager created 
+2023-04-01 13:12:09,995 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/23993/000e0001/BV9kFlFuHc
+2023-04-01 13:12:09,995 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/23993/000e0001/BV9kFlFuHc
+2023-04-01 13:12:10,015 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 13:12:10,015 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 13:12:10,016 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 13:12:10,016 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 13:12:10,019 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 13:12:10,019 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 13:12:10,020 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 13:12:10,020 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 13:12:10,021 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 13:12:10,021 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 13:12:10,033 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 13:12:10,033 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 13:12:10,034 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23993/000e0001/BV9kFlFuHc]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 13:12:10,034 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23993/000e0001/BV9kFlFuHc]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 13:12:10,035 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 13:12:10,035 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 13:12:10,035 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 13:12:10,035 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 13:12:10,036 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:12:10,036 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:12:10,036 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23993/000e0001/BV9kFlFuHc/_]
+2023-04-01 13:12:10,036 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23993/000e0001/BV9kFlFuHc/_]
+2023-04-01 13:12:10,037 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 13:12:10,037 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 13:12:10,037 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23993/000e0001/BV9kFlFuHc/>]
+2023-04-01 13:12:10,037 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/23993/000e0001/BV9kFlFuHc/>]
+2023-04-01 13:12:10,038 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 13:12:10,038 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 13:12:10,039 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 13:12:10,039 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 13:12:10,040 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 13:12:10,040 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 13:12:10,054 +0530 [Context_1_ConsumerDispatcher] DEBUG (ConsumerNotificationDispatcher.java:127) - Consumer dispatcher thread starts
+2023-04-01 13:12:10,054 +0530 [Context_1_ConsumerDispatcher] DEBUG (ConsumerNotificationDispatcher.java:127) - Consumer dispatcher thread starts
+2023-04-01 13:12:10,054 +0530 [main] DEBUG (SubAckTimedTask.java:17) - Creating SubAckTimedTask.
+2023-04-01 13:12:10,054 +0530 [main] DEBUG (SubAckTimedTask.java:17) - Creating SubAckTimedTask.
+2023-04-01 13:12:10,055 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: Clear AD timer
+2023-04-01 13:12:10,055 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: Clear AD timer
+2023-04-01 13:12:10,055 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:30) - Created XMLMessageConsumer
+2023-04-01 13:12:10,055 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:30) - Created XMLMessageConsumer
+2023-04-01 13:12:10,056 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=4 
+
+2023-04-01 13:12:10,056 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=4 
+
+2023-04-01 13:12:10,057 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (SMP-SmpRequest) (10000 ms)
+2023-04-01 13:12:10,057 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (SMP-SmpRequest) (10000 ms)
+2023-04-01 13:12:10,057 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (SMP-SmpRequest)
+2023-04-01 13:12:10,057 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (SMP-SmpRequest)
+2023-04-01 13:12:13,063 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:12:13,063 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:12:13,063 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:12:13,063 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:12:13,064 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:12:13,064 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:12:14,066 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Timer expiry: checking reconnect counter.
+2023-04-01 13:12:14,066 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Timer expiry: checking reconnect counter.
+2023-04-01 13:12:14,066 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Reconnect frequency OK: count=1
+2023-04-01 13:12:14,066 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Reconnect frequency OK: count=1
+2023-04-01 13:12:16,071 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:12:16,071 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:12:16,072 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:12:16,072 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:12:16,073 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:12:16,073 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:12:19,082 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:12:19,082 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:12:19,082 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:12:19,082 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:12:19,082 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:12:19,082 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:12:25,556 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 13:12:25,556 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 13:12:25,564 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:61d47554: PubFlowManager created 
+2023-04-01 13:12:25,564 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:61d47554: PubFlowManager created 
+2023-04-01 13:12:25,594 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/24023/000e0001/vVh_QNXShi
+2023-04-01 13:12:25,594 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/24023/000e0001/vVh_QNXShi
+2023-04-01 13:12:25,614 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 13:12:25,614 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 13:12:25,615 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 13:12:25,615 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 13:12:25,617 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 13:12:25,617 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 13:12:25,618 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 13:12:25,618 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 13:12:25,619 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 13:12:25,619 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 13:12:25,628 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 13:12:25,628 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 13:12:25,629 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24023/000e0001/vVh_QNXShi]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 13:12:25,629 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24023/000e0001/vVh_QNXShi]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 13:12:25,630 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 13:12:25,630 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 13:12:25,630 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 13:12:25,630 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 13:12:25,631 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:12:25,631 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:12:25,631 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24023/000e0001/vVh_QNXShi/_]
+2023-04-01 13:12:25,631 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24023/000e0001/vVh_QNXShi/_]
+2023-04-01 13:12:25,631 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 13:12:25,631 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 13:12:25,632 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24023/000e0001/vVh_QNXShi/>]
+2023-04-01 13:12:25,632 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24023/000e0001/vVh_QNXShi/>]
+2023-04-01 13:12:25,632 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 13:12:25,632 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 13:12:25,633 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 13:12:25,633 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 13:12:25,634 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 13:12:25,634 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 13:12:25,648 +0530 [Context_1_ConsumerDispatcher] DEBUG (ConsumerNotificationDispatcher.java:127) - Consumer dispatcher thread starts
+2023-04-01 13:12:25,648 +0530 [Context_1_ConsumerDispatcher] DEBUG (ConsumerNotificationDispatcher.java:127) - Consumer dispatcher thread starts
+2023-04-01 13:12:25,648 +0530 [main] DEBUG (SubAckTimedTask.java:17) - Creating SubAckTimedTask.
+2023-04-01 13:12:25,648 +0530 [main] DEBUG (SubAckTimedTask.java:17) - Creating SubAckTimedTask.
+2023-04-01 13:12:25,648 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: Clear AD timer
+2023-04-01 13:12:25,648 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: Clear AD timer
+2023-04-01 13:12:25,649 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:30) - Created XMLMessageConsumer
+2023-04-01 13:12:25,649 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:30) - Created XMLMessageConsumer
+2023-04-01 13:12:25,650 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=4 
+
+2023-04-01 13:12:25,650 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=4 
+
+2023-04-01 13:12:25,650 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (SMP-SmpRequest) (10000 ms)
+2023-04-01 13:12:25,650 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (SMP-SmpRequest) (10000 ms)
+2023-04-01 13:12:25,651 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (SMP-SmpRequest)
+2023-04-01 13:12:25,651 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (SMP-SmpRequest)
+2023-04-01 13:12:28,657 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:12:28,657 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:12:28,657 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:12:28,657 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:12:28,658 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:12:28,658 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:12:29,660 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Timer expiry: checking reconnect counter.
+2023-04-01 13:12:29,660 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Timer expiry: checking reconnect counter.
+2023-04-01 13:12:29,660 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Reconnect frequency OK: count=1
+2023-04-01 13:12:29,660 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Reconnect frequency OK: count=1
+2023-04-01 13:12:30,345 +0530 [main] INFO  (TopicPublisher.java:37) - TopicPublisher initializing...
+2023-04-01 13:12:30,379 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 13:12:30,379 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 13:12:30,385 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: PubFlowManager created 
+2023-04-01 13:12:30,385 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: PubFlowManager created 
+2023-04-01 13:12:30,416 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/24052/000e0001/E3XVc3rSQt
+2023-04-01 13:12:30,416 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/24052/000e0001/E3XVc3rSQt
+2023-04-01 13:12:30,436 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 13:12:30,436 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 13:12:30,437 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 13:12:30,437 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 13:12:30,439 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 13:12:30,439 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 13:12:30,440 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 13:12:30,440 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 13:12:30,441 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 13:12:30,441 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 13:12:30,450 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 13:12:30,450 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 13:12:30,452 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24052/000e0001/E3XVc3rSQt]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 13:12:30,452 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24052/000e0001/E3XVc3rSQt]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 13:12:30,452 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 13:12:30,452 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 13:12:30,453 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 13:12:30,453 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 13:12:30,453 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:12:30,453 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:12:30,453 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24052/000e0001/E3XVc3rSQt/_]
+2023-04-01 13:12:30,453 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24052/000e0001/E3XVc3rSQt/_]
+2023-04-01 13:12:30,454 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 13:12:30,454 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 13:12:30,454 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24052/000e0001/E3XVc3rSQt/>]
+2023-04-01 13:12:30,454 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24052/000e0001/E3XVc3rSQt/>]
+2023-04-01 13:12:30,455 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 13:12:30,455 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 13:12:30,456 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 13:12:30,456 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 13:12:30,456 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 13:12:30,456 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 13:12:30,465 +0530 [main] INFO  (TopicPublisher.java:50) - Created Topic Name: tutorial/topic
+2023-04-01 13:12:30,470 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Created XMLMessageProducer for session [Client-1]
+2023-04-01 13:12:30,470 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Created XMLMessageProducer for session [Client-1]
+2023-04-01 13:12:30,470 +0530 [main] DEBUG (LogWrapper.java:55) - PUBADMGR_ReInit
+2023-04-01 13:12:30,470 +0530 [main] DEBUG (LogWrapper.java:55) - PUBADMGR_ReInit
+2023-04-01 13:12:30,470 +0530 [main] DEBUG (PubRetransmitTimedTask.java:20) - Creating PubADManager.
+2023-04-01 13:12:30,470 +0530 [main] DEBUG (PubRetransmitTimedTask.java:20) - Creating PubADManager.
+2023-04-01 13:12:30,471 +0530 [main] DEBUG (LogWrapper.java:55) - State Change: Unbound->Sending with input: FlowOpened
+2023-04-01 13:12:30,471 +0530 [main] DEBUG (LogWrapper.java:55) - State Change: Unbound->Sending with input: FlowOpened
+2023-04-01 13:12:30,472 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: Created ADCTRL Handshake/OpenFlow Request [TxSessionId=-1, flow_name=null, lastSent=0  lastAck=0  winSz=1]
+2023-04-01 13:12:30,472 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: Created ADCTRL Handshake/OpenFlow Request [TxSessionId=-1, flow_name=null, lastSent=0  lastAck=0  winSz=1]
+2023-04-01 13:12:30,472 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=1 
+
+2023-04-01 13:12:30,472 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=1 
+
+2023-04-01 13:12:30,472 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (ADCTRL-ProducerOpenFlow) (10000 ms)
+2023-04-01 13:12:30,472 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (ADCTRL-ProducerOpenFlow) (10000 ms)
+2023-04-01 13:12:30,473 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (ADCTRL-ProducerOpenFlow)
+2023-04-01 13:12:30,473 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (ADCTRL-ProducerOpenFlow)
+2023-04-01 13:12:30,473 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: lastMsgIdReceived not present in OpenFlow Response
+2023-04-01 13:12:30,473 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: lastMsgIdReceived not present in OpenFlow Response
+2023-04-01 13:12:30,474 +0530 [main] DEBUG (LogWrapper.java:55) - Init message queue: size=1
+2023-04-01 13:12:30,474 +0530 [main] DEBUG (LogWrapper.java:55) - Init message queue: size=1
+2023-04-01 13:12:30,474 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: Got ADCTRL Response [TxSessionId=-1, flowName=3bf254c043af4e209f36d8f5a3312949, flowId=10, lastAck=0 lastRcv=0 winSz=1]
+2023-04-01 13:12:30,474 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: Got ADCTRL Response [TxSessionId=-1, flowName=3bf254c043af4e209f36d8f5a3312949, flowId=10, lastAck=0 lastRcv=0 winSz=1]
+2023-04-01 13:12:30,475 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: Client AD state is now: lastAcked=0 lastSent=0 winSz=1, flowId=10
+2023-04-01 13:12:30,475 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: Client AD state is now: lastAcked=0 lastSent=0 winSz=1, flowId=10
+2023-04-01 13:12:30,475 +0530 [main] DEBUG (LogWrapper.java:55) - set flowId:10
+2023-04-01 13:12:30,475 +0530 [main] DEBUG (LogWrapper.java:55) - set flowId:10
+2023-04-01 13:12:30,475 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Suspending producer
+2023-04-01 13:12:30,475 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Suspending producer
+2023-04-01 13:12:30,475 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:555) - Suspend message queue
+2023-04-01 13:12:30,475 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:555) - Suspend message queue
+2023-04-01 13:12:30,475 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: AD pub flow message renumbering: flowId=10; respLastIdAcked=0
+2023-04-01 13:12:30,475 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: AD pub flow message renumbering: flowId=10; respLastIdAcked=0
+2023-04-01 13:12:30,475 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Resuming producer
+2023-04-01 13:12:30,475 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Resuming producer
+2023-04-01 13:12:30,475 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 13:12:30,475 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 13:12:30,481 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: About to send message
+2023-04-01 13:12:30,481 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: About to send message
+2023-04-01 13:12:30,481 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Set message ID: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=15,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@2e222612]
+2023-04-01 13:12:30,481 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Set message ID: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=15,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@2e222612]
+2023-04-01 13:12:30,481 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=15,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@2e222612]
+2023-04-01 13:12:30,481 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=15,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@2e222612]
+2023-04-01 13:12:30,482 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 1
+2023-04-01 13:12:30,482 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 1
+2023-04-01 13:12:30,482 +0530 [main] INFO  (TopicPublisher.java:71) - Message sent. Exiting.
+2023-04-01 13:12:30,482 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Client closes producer
+2023-04-01 13:12:30,482 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Client closes producer
+2023-04-01 13:12:30,482 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: State Change: Sending->Closed with null
+2023-04-01 13:12:30,482 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: State Change: Sending->Closed with null
+2023-04-01 13:12:30,482 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Clear AD timer
+2023-04-01 13:12:30,482 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Clear AD timer
+2023-04-01 13:12:30,482 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Return 0 non-AD messages to pool
+2023-04-01 13:12:30,482 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Return 0 non-AD messages to pool
+2023-04-01 13:12:30,483 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Return 0 AD messages to pool
+2023-04-01 13:12:30,483 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Return 0 AD messages to pool
+2023-04-01 13:12:30,483 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Resuming producer
+2023-04-01 13:12:30,483 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Resuming producer
+2023-04-01 13:12:30,483 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 13:12:30,483 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 13:12:30,483 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Closed XMLMessageProducer for session [Client-1].
+2023-04-01 13:12:30,483 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-10: Closed XMLMessageProducer for session [Client-1].
+2023-04-01 13:12:30,483 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 13:12:30,483 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 13:12:30,483 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 13:12:30,483 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 13:12:30,483 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 13:12:30,483 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 13:12:30,484 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 13:12:30,484 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 13:12:30,484 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 34386   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 13:12:30,484 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 34386   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 13:12:30,484 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 13:12:30,484 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 13:12:30,489 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Demux pub msg:com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=15,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@2f921f3e]
+2023-04-01 13:12:30,489 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Demux pub msg:com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=15,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@2f921f3e]
+2023-04-01 13:12:30,489 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Flow 0: Enqueue to delivery: msg=4, dest=tutorial/topic
+2023-04-01 13:12:30,489 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Flow 0: Enqueue to delivery: msg=4, dest=tutorial/topic
+2023-04-01 13:12:30,496 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:69) - Consumer about to close
+2023-04-01 13:12:30,496 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:69) - Consumer about to close
+2023-04-01 13:12:30,496 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: pauseFlowInternally=false
+2023-04-01 13:12:30,496 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: pauseFlowInternally=false
+2023-04-01 13:12:30,496 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: _startState=STOPPED
+2023-04-01 13:12:30,496 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: _startState=STOPPED
+2023-04-01 13:12:30,496 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: Clear AD timer
+2023-04-01 13:12:30,496 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: Clear AD timer
+2023-04-01 13:12:30,496 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:75) - Closed XMLMessageConsumer
+2023-04-01 13:12:30,496 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:75) - Closed XMLMessageConsumer
+2023-04-01 13:12:30,497 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:69) - Consumer about to close
+2023-04-01 13:12:30,497 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:69) - Consumer about to close
+2023-04-01 13:12:30,497 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:75) - Closed XMLMessageConsumer
+2023-04-01 13:12:30,497 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:75) - Closed XMLMessageConsumer
+2023-04-01 13:12:30,497 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 13:12:30,497 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 13:12:30,497 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 13:12:30,497 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 13:12:30,497 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 13:12:30,497 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 13:12:30,497 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 13:12:30,497 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 13:12:30,497 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 51560   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 13:12:30,497 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 51560   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 13:12:30,498 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 13:12:30,498 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 13:13:05,394 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 13:13:05,394 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 13:13:05,401 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:61d47554: PubFlowManager created 
+2023-04-01 13:13:05,401 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:61d47554: PubFlowManager created 
+2023-04-01 13:13:05,432 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/24102/000e0001/HLF46zWvLH
+2023-04-01 13:13:05,432 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/24102/000e0001/HLF46zWvLH
+2023-04-01 13:13:05,452 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 13:13:05,452 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 13:13:05,453 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 13:13:05,453 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 13:13:05,456 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 13:13:05,456 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 13:13:05,457 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 13:13:05,457 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 13:13:05,457 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 13:13:05,457 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 13:13:05,466 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 13:13:05,466 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 13:13:05,468 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24102/000e0001/HLF46zWvLH]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 13:13:05,468 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24102/000e0001/HLF46zWvLH]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 13:13:05,469 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 13:13:05,469 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 13:13:05,469 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 13:13:05,469 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 13:13:05,469 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:13:05,469 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:13:05,470 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24102/000e0001/HLF46zWvLH/_]
+2023-04-01 13:13:05,470 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24102/000e0001/HLF46zWvLH/_]
+2023-04-01 13:13:05,470 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 13:13:05,470 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 13:13:05,470 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24102/000e0001/HLF46zWvLH/>]
+2023-04-01 13:13:05,470 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24102/000e0001/HLF46zWvLH/>]
+2023-04-01 13:13:05,471 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 13:13:05,471 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 13:13:05,472 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 13:13:05,472 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 13:13:05,473 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 13:13:05,473 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 13:13:05,487 +0530 [Context_1_ConsumerDispatcher] DEBUG (ConsumerNotificationDispatcher.java:127) - Consumer dispatcher thread starts
+2023-04-01 13:13:05,487 +0530 [Context_1_ConsumerDispatcher] DEBUG (ConsumerNotificationDispatcher.java:127) - Consumer dispatcher thread starts
+2023-04-01 13:13:05,488 +0530 [main] DEBUG (SubAckTimedTask.java:17) - Creating SubAckTimedTask.
+2023-04-01 13:13:05,488 +0530 [main] DEBUG (SubAckTimedTask.java:17) - Creating SubAckTimedTask.
+2023-04-01 13:13:05,488 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: Clear AD timer
+2023-04-01 13:13:05,488 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: Clear AD timer
+2023-04-01 13:13:05,489 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:30) - Created XMLMessageConsumer
+2023-04-01 13:13:05,489 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:30) - Created XMLMessageConsumer
+2023-04-01 13:13:05,490 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=4 
+
+2023-04-01 13:13:05,490 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=4 
+
+2023-04-01 13:13:05,490 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (SMP-SmpRequest) (10000 ms)
+2023-04-01 13:13:05,490 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (SMP-SmpRequest) (10000 ms)
+2023-04-01 13:13:05,491 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (SMP-SmpRequest)
+2023-04-01 13:13:05,491 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (SMP-SmpRequest)
+2023-04-01 13:13:08,497 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:13:08,497 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:36) - Keepalive Timeout expired.
+2023-04-01 13:13:08,497 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:13:08,497 +0530 [Context_1_ReactorThread] DEBUG (KeepaliveTimeoutHandler.java:62) - Sending keepalive message (1/10)
+2023-04-01 13:13:08,498 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:13:08,498 +0530 [Context_1_ReactorThread] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:13:09,206 +0530 [main] INFO  (TopicPublisher.java:37) - TopicPublisher initializing...
+2023-04-01 13:13:09,241 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 13:13:09,241 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: 
+ {SSL_TRUSTED_COMMON_NAME_LIST, },
+ {session_name, JCSMPSession },
+ {ACK_EVENT_MODE, SUPPORTED_ACK_EVENT_MODE_PER_MSG },
+ {max_resends, 30 },
+ {gd_reconnect_fail_action, gd_reconnect_fail_action_auto_retry },
+ {JaasLoginContext, SolaceGSS },
+ {large_message_consume_timeout, 100000 },
+ {topic_dispatch, false },
+ {large_messaging, false },
+ {VIRTUAL_ROUTER_NAME,  },
+ {host, tcp://localhost:55555 },
+ {vpn_name_in_use,  },
+ {IGNORE_DUPLICATE_SUBSCRIPTION_ERROR, false },
+ {generate_sequence_numbers, false },
+ {SSL_KEY_STORE_NORMALIZED_FORMAT,  },
+ {localhost,  },
+ {pub_multi_thread, true },
+ {Message_Consume_Interceptor_Class_Name,  },
+ {topic_dispatch_optimize_direct, false },
+ {SSL_CONNECTION_DOWNGRADE_TO,  },
+ {SSL_PROTOCOL, SSLv3,TLSv1,TLSv1.1,TLSv1.2 },
+ {sub_ack_window_size, 255 },
+ {generate_rcv_timestamps, false },
+ {SSL_TRUST_STORE,  },
+ {max_ad_flowctrl_retries, 15 },
+ {generate_send_timestamps, false },
+ {client_mode, false },
+ {AUTHENTICATION_SCHEME, AUTHENTICATION_SCHEME_BASIC },
+ {subscriber_network_priority, 1 },
+ {sub_ack_window_threshold, 60 },
+ {client_channel, 
+	stack: csmp.smf.tcp
+	smfPort: 55555
+	connectRetriesPerHost: 0
+	connectRetries: 0
+	connectTimeoutInMillis: 30000
+	readTimeoutInMillis: 10000
+	reconnectRetries: 3
+	reconnectRetryWaitInMillis: 3000
+	keepAliveIntervalInMillis: 3000
+	keepAliveLimit: 10
+	tcpNoDelay: true
+	ReceiveBuffer: 65536
+	sendBuffer: 65536
+ },
+ {pub_use_intermediate_direct_buf, true },
+ {SSL_CIPHER_SUITES, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_RC4_128_MD5,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 },
+ {MESSAGE_CALLBACK_ON_REACTOR, false },
+ {SSL_EXCLUDED_PROTOCOLS,  },
+ {SSL_TRUST_STORE_FORMAT, pkcs12 },
+ {JaasConfigFileReloadEnabled, false },
+ {IGNORE_SUBSCRIPTION_NOT_FOUND_ERROR, false },
+ {vpn_name, Parthiban },
+ {KRB_MUTUAL_AUTHENTICATION, true },
+ {ad_pub_router_windowed_ack, true },
+ {sub_ack_time, 1000 },
+ {application_description,  },
+ {NO_LOCAL, false },
+ {SSL_VALIDATE_CERTIFICATE, true },
+ {generate_sender_id, false },
+ {subscriber_local_priority, 1 },
+ {SSL_KEY_STORE_FORMAT, pkcs12 },
+ {KRB_SERVICE_NAME, solace },
+ {pub_ack_window_size, 1 },
+ {large_message_segment_size, 9437184 },
+ {SSL_VALIDATE_CERTIFICATE_DATE, true },
+ {connection_type, CONNECTION_TYPE_BASIC },
+ {pub_ack_time, 2000 },
+ {message_ack_mode, auto_ack },
+ {SSL_VALIDATE_CERTIFICATE_HOST, true },
+ {reapply_subscriptions, false },
+ {SSL_KEY_STORE,  },
+ {large_message_max_size, 209715200 },
+ {username, admin },
+ {calculate_message_expiration, false }
+2023-04-01 13:13:09,247 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: PubFlowManager created 
+2023-04-01 13:13:09,247 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: PubFlowManager created 
+2023-04-01 13:13:09,278 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/24130/000e0001/b7dTFxdBP3
+2023-04-01 13:13:09,278 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Session created: ubuntu1/24130/000e0001/b7dTFxdBP3
+2023-04-01 13:13:09,299 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 13:13:09,299 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Closing socket
+2023-04-01 13:13:09,299 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 13:13:09,299 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 1, attempt 1 of 1, this_host_attempt: 1 of 1)
+2023-04-01 13:13:09,302 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 13:13:09,302 +0530 [main] DEBUG (ChannelOpStrategyClient.java:70) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Opening TcpClientChannel.
+2023-04-01 13:13:09,303 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 13:13:09,303 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Correlation tag not found in message, adding one: 1
+2023-04-01 13:13:09,303 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 13:13:09,303 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: (smfclient 1) Attempting to open socket, host=localhost, port=55555
+2023-04-01 13:13:09,313 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 13:13:09,313 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: AdCtrl version changes: 2->4
+2023-04-01 13:13:09,315 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24130/000e0001/b7dTFxdBP3]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 13:13:09,315 +0530 [main] DEBUG (ChannelOpStrategyClient.java:152) - [JCSMPSession[admin@tcp://localhost:55555] (0001)] Logged in. Router information:
+   ClientCtrlHeader[msgtype=0] {
+  uh=0;type=0;valuelength=10;value=[10.3.1.17]
+  uh=0;type=1;valuelength=21;value=[Mar  9 2023 19:39:31]
+  uh=0;type=2;valuelength=24;value=[Solace PubSub+ Standard]
+  uh=0;type=6;valuelength=10;value=[Parthiban]
+  uh=0;type=10;valuelength=15;value=[v:18f2d4f7c449]
+  uh=0;type=8;valuelength=63;value=[#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24130/000e0001/b7dTFxdBP3]
+  uh=0;type=12;valuelength=13;value=[18f2d4f7c449]
+  uh=0;type=9;valuelength=38;value=[1b 7f d3 df e0 00 00 00 00 09 00 00 03 e8 01 00 00 00 06 00 02 00 00 00 09 01 c9 c3 80 03 00 00 00 09 00 a0 00 00 ]
+  uh=0;type=19;valuelength=15;value=[00 04 00 00 00 07 01 04 05 00 00 00 07 01 01 ]
+}
+
+2023-04-01 13:13:09,315 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 13:13:09,315 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) starting KA timer
+2023-04-01 13:13:09,316 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 13:13:09,316 +0530 [main] DEBUG (KeepaliveTimeoutHandler.java:28) - Created new KA timer handler
+2023-04-01 13:13:09,316 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:13:09,316 +0530 [main] DEBUG (TcpChannel.java:303) - Scheduling KA timer in 3000ms
+2023-04-01 13:13:09,316 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24130/000e0001/b7dTFxdBP3/_]
+2023-04-01 13:13:09,316 +0530 [main] DEBUG (ChannelOpStrategyClient.java:408) - ** Got CLIENTCTRL, updating P2PINBOX to [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24130/000e0001/b7dTFxdBP3/_]
+2023-04-01 13:13:09,317 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 13:13:09,317 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 1)
+2023-04-01 13:13:09,317 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24130/000e0001/b7dTFxdBP3/>]
+2023-04-01 13:13:09,317 +0530 [main] DEBUG (ChannelOpStrategyClient.java:254) - ** Establishing topic sub [#P2P/v:18f2d4f7c449/musmp2KT/ubuntu1/24130/000e0001/b7dTFxdBP3/>]
+2023-04-01 13:13:09,318 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 13:13:09,318 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSingleReq
+2023-04-01 13:13:09,319 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 13:13:09,319 +0530 [main] DEBUG (LogWrapper.java:55) - Starting request timer (SMP-EstablishP2pSub) (10000 ms)
+2023-04-01 13:13:09,319 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 13:13:09,319 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Stopping request timer (SMP-EstablishP2pSub)
+2023-04-01 13:13:09,327 +0530 [main] INFO  (TopicPublisher.java:50) - Created Topic Name: tutorial/topic
+2023-04-01 13:13:09,333 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Created XMLMessageProducer for session [Client-1]
+2023-04-01 13:13:09,333 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Created XMLMessageProducer for session [Client-1]
+2023-04-01 13:13:09,333 +0530 [main] DEBUG (LogWrapper.java:55) - PUBADMGR_ReInit
+2023-04-01 13:13:09,333 +0530 [main] DEBUG (LogWrapper.java:55) - PUBADMGR_ReInit
+2023-04-01 13:13:09,333 +0530 [main] DEBUG (PubRetransmitTimedTask.java:20) - Creating PubADManager.
+2023-04-01 13:13:09,333 +0530 [main] DEBUG (PubRetransmitTimedTask.java:20) - Creating PubADManager.
+2023-04-01 13:13:09,333 +0530 [main] DEBUG (LogWrapper.java:55) - State Change: Unbound->Sending with input: FlowOpened
+2023-04-01 13:13:09,333 +0530 [main] DEBUG (LogWrapper.java:55) - State Change: Unbound->Sending with input: FlowOpened
+2023-04-01 13:13:09,334 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: Created ADCTRL Handshake/OpenFlow Request [TxSessionId=-1, flow_name=null, lastSent=0  lastAck=0  winSz=1]
+2023-04-01 13:13:09,334 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: Created ADCTRL Handshake/OpenFlow Request [TxSessionId=-1, flow_name=null, lastSent=0  lastAck=0  winSz=1]
+2023-04-01 13:13:09,334 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=1 
+
+2023-04-01 13:13:09,334 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: doSmfSharedReq (smfclient 1) try=0 / max=1 
+
+2023-04-01 13:13:09,335 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (ADCTRL-ProducerOpenFlow) (10000 ms)
+2023-04-01 13:13:09,335 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Starting request timer (ADCTRL-ProducerOpenFlow) (10000 ms)
+2023-04-01 13:13:09,336 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (ADCTRL-ProducerOpenFlow)
+2023-04-01 13:13:09,336 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Stopping request timer (ADCTRL-ProducerOpenFlow)
+2023-04-01 13:13:09,336 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: lastMsgIdReceived not present in OpenFlow Response
+2023-04-01 13:13:09,336 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: lastMsgIdReceived not present in OpenFlow Response
+2023-04-01 13:13:09,336 +0530 [main] DEBUG (LogWrapper.java:55) - Init message queue: size=1
+2023-04-01 13:13:09,336 +0530 [main] DEBUG (LogWrapper.java:55) - Init message queue: size=1
+2023-04-01 13:13:09,337 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: Got ADCTRL Response [TxSessionId=-1, flowName=c86128195f2246c3b34044c871bf7a76, flowId=11, lastAck=0 lastRcv=0 winSz=1]
+2023-04-01 13:13:09,337 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: Got ADCTRL Response [TxSessionId=-1, flowName=c86128195f2246c3b34044c871bf7a76, flowId=11, lastAck=0 lastRcv=0 winSz=1]
+2023-04-01 13:13:09,337 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: Client AD state is now: lastAcked=0 lastSent=0 winSz=1, flowId=11
+2023-04-01 13:13:09,337 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:70b0b186: Client AD state is now: lastAcked=0 lastSent=0 winSz=1, flowId=11
+2023-04-01 13:13:09,337 +0530 [main] DEBUG (LogWrapper.java:55) - set flowId:11
+2023-04-01 13:13:09,337 +0530 [main] DEBUG (LogWrapper.java:55) - set flowId:11
+2023-04-01 13:13:09,337 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Suspending producer
+2023-04-01 13:13:09,337 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Suspending producer
+2023-04-01 13:13:09,337 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:555) - Suspend message queue
+2023-04-01 13:13:09,337 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:555) - Suspend message queue
+2023-04-01 13:13:09,337 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: AD pub flow message renumbering: flowId=11; respLastIdAcked=0
+2023-04-01 13:13:09,337 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: AD pub flow message renumbering: flowId=11; respLastIdAcked=0
+2023-04-01 13:13:09,337 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Resuming producer
+2023-04-01 13:13:09,337 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Resuming producer
+2023-04-01 13:13:09,337 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 13:13:09,337 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 13:13:09,343 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: About to send message
+2023-04-01 13:13:09,343 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: About to send message
+2023-04-01 13:13:09,344 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Set message ID: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=23,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@2e222612]
+2023-04-01 13:13:09,344 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Set message ID: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=23,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@2e222612]
+2023-04-01 13:13:09,344 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=23,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@2e222612]
+2023-04-01 13:13:09,344 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] Want to send: com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=1,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=23,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@2e222612]
+2023-04-01 13:13:09,344 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 1
+2023-04-01 13:13:09,344 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: [JCSMPSession[admin@tcp://localhost:55555] (0001)] encoded to bufs: 1
+2023-04-01 13:13:09,344 +0530 [main] INFO  (TopicPublisher.java:71) - Message sent. Exiting.
+2023-04-01 13:13:09,344 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Client closes producer
+2023-04-01 13:13:09,344 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Client closes producer
+2023-04-01 13:13:09,344 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: State Change: Sending->Closed with null
+2023-04-01 13:13:09,344 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: State Change: Sending->Closed with null
+2023-04-01 13:13:09,345 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Clear AD timer
+2023-04-01 13:13:09,345 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Clear AD timer
+2023-04-01 13:13:09,345 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Return 0 non-AD messages to pool
+2023-04-01 13:13:09,345 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Return 0 non-AD messages to pool
+2023-04-01 13:13:09,345 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Return 0 AD messages to pool
+2023-04-01 13:13:09,345 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Return 0 AD messages to pool
+2023-04-01 13:13:09,345 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Resuming producer
+2023-04-01 13:13:09,345 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Resuming producer
+2023-04-01 13:13:09,346 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 13:13:09,346 +0530 [main] DEBUG (ConditionalBoundedMessageQueue.java:568) - Resume message queue
+2023-04-01 13:13:09,346 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Closed XMLMessageProducer for session [Client-1].
+2023-04-01 13:13:09,346 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1:Flow-11: Closed XMLMessageProducer for session [Client-1].
+2023-04-01 13:13:09,346 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 13:13:09,346 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 13:13:09,346 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 13:13:09,346 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 13:13:09,346 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 13:13:09,346 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 13:13:09,347 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 13:13:09,347 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 13:13:09,347 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 55890   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 13:13:09,347 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 55890   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 13:13:09,347 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 13:13:09,347 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 13:13:09,352 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Demux pub msg:com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=23,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@33d226f6]
+2023-04-01 13:13:09,352 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Client-1: Demux pub msg:com.solacesystems.jcsmp.impl.JCSMPGenericXMLMessage[messageId=4,ackMessageId=0,prevId=0,CID_count=0,userData=,type=DIRECT,priority=4,redelivered=false,timeToLive=0,expiration=0,dmqEligible=false,topicSeqNum=null,metadataLen=0,contentLen=0,attLen=23,sendAttemptedOnce=false,ackImmediately=false,safeToRelease=false,retransmitting=false,sendCount=0@33d226f6]
+2023-04-01 13:13:09,352 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Flow 0: Enqueue to delivery: msg=4, dest=tutorial/topic
+2023-04-01 13:13:09,352 +0530 [Context_1_ReactorThread] DEBUG (LogWrapper.java:55) - Flow 0: Enqueue to delivery: msg=4, dest=tutorial/topic
+2023-04-01 13:13:09,359 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:69) - Consumer about to close
+2023-04-01 13:13:09,359 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:69) - Consumer about to close
+2023-04-01 13:13:09,359 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: pauseFlowInternally=false
+2023-04-01 13:13:09,359 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: pauseFlowInternally=false
+2023-04-01 13:13:09,360 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: _startState=STOPPED
+2023-04-01 13:13:09,360 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: _startState=STOPPED
+2023-04-01 13:13:09,360 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: Clear AD timer
+2023-04-01 13:13:09,360 +0530 [main] DEBUG (LogWrapper.java:55) - Flow 0: Clear AD timer
+2023-04-01 13:13:09,360 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:75) - Closed XMLMessageConsumer
+2023-04-01 13:13:09,360 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:75) - Closed XMLMessageConsumer
+2023-04-01 13:13:09,360 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:69) - Consumer about to close
+2023-04-01 13:13:09,360 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:69) - Consumer about to close
+2023-04-01 13:13:09,360 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:75) - Closed XMLMessageConsumer
+2023-04-01 13:13:09,360 +0530 [main] DEBUG (JCSMPXMLMessageConsumer.java:75) - Closed XMLMessageConsumer
+2023-04-01 13:13:09,360 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 13:13:09,360 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: SubFlowManagerImpl closing... close 0 flows
+2023-04-01 13:13:09,361 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 13:13:09,361 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Client channel (smfclient 1) stopping KA timer
+2023-04-01 13:13:09,361 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 13:13:09,361 +0530 [main] DEBUG (TcpChannel.java:315) - Canceled KA timer
+2023-04-01 13:13:09,361 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 13:13:09,361 +0530 [main] INFO  (LogWrapper.java:63) - Client-1: Channel Closed (smfclient 1)
+2023-04-01 13:13:09,361 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 55882   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 13:13:09,361 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: Local addr: 127.0.0.1 Local port: 55882   Remote addr: localhost  Remote port: 55555(smfclient 1) Closing socket
+2023-04-01 13:13:09,362 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
+2023-04-01 13:13:09,362 +0530 [main] DEBUG (LogWrapper.java:55) - Client-1: JCSMPSession[admin@tcp://localhost:55555] (0001)closed
