@@ -15,13 +15,12 @@
 	<description>Demo project for Spring Boot and solace integration</description>
 	<properties>
 		<java.version>17</java.version>
-		<solace-spring-boot.version>1.2.2</solace-spring-boot.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>com.solace.spring.boot</groupId>
 			<artifactId>solace-spring-boot-starter</artifactId>
-			<version>1.2.2</version>
+			<version>1.3.0</version>
 		</dependency>
 
 		<dependency>
